@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CineProyecto</string>
+    <string name="strCrear_Cuenta"><u>Crear Cuenta</u></string>
+    <string name="strOlvidar_Cuenta"><u>Recuperar contraseña</u></string>
+</resources>

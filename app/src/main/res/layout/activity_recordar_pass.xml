@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000079"
+    tools:context=".RecordarPassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="RECUPERAR\n CONTRASEÑA"
+            android:fontFamily="@font/playfairdisplay_blackitalic"
+            android:textColor="@color/white"
+            android:textSize="40sp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height= "200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/imagecine5">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoslab_variablefont_wght"
+            android:text="Por favor, escriba su correo electronico"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="17dp"
+            android:textColor="#ffff00">
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:startIconDrawable="@drawable/iconemail">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtEmailCambio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:hint="Correo electronico">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/edutasbeginner_variablefont_wght"
+            android:text="*En seguida recibira un mensaje en su \n correo electronico para determinar \n el nuevo cambio de contraseña"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:textColor="#94c6dc">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnCambiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:text="ENVIAR"
+            android:ems="18"/>
+
+        <Button
+            android:id="@+id/btnRegresarRecuperar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="REGRESAR"
+            android:backgroundTint="#CC0000"
+            android:ems="10"/>
+
+    </LinearLayout>
+</LinearLayout>

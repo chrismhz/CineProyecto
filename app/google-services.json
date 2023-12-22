@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "843321439916",
+    "project_id": "cineautentificacion",
+    "storage_bucket": "cineautentificacion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843321439916:android:5019ad7ff4ae365d7c9109",
+        "android_client_info": {
+          "package_name": "com.example.cineproyecto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAabT3AKNu5BGxi0a7UFD_wZGfhL7xtM0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
